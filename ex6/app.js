@@ -73,9 +73,9 @@ let products = [
 
 // Sorting 
 
-// products.sort((a, b) => a.price - b.price)
-// console.log(products)
+products.sort((a, b) => a.price - b.price)
+console.log(products)
 
 console.log("====================================")
 
-console.log(products.includes({category: "Computer Accessories",}))
+console.log(products.includes({category: "Computer Accessories"}))
