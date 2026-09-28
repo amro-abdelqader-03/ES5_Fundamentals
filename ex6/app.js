@@ -79,3 +79,15 @@ console.log(products)
 console.log("====================================")
 
 console.log(products.includes({category: "Computer Accessories"}))
+
+console.log("====================================")
+
+products.splice(8, 2)
+
+console.log(products)
+
+console.log("====================================")
+
+copy_product = products.slice(0, 5)
+
+console.log(copy_product)
